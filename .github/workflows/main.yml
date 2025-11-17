@@ -18,7 +18,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          user: xxiamdsk
+          user: deepaksinghrx
           template: classic
           filename: secondary.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -53,7 +53,7 @@ jobs:
           plugin_leetcode_limit_recent: 2
           plugin_leetcode_limit_skills: 10
           plugin_leetcode_sections: solved,skills,recent
-          plugin_leetcode_user: xxiamdsk
+          plugin_leetcode_user: deepaksinghrx
 
           # config_order: habits,notable, isocalendar, achievements
           plugin_topics: yes
@@ -87,7 +87,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: stalomeow/metrics@projects-v2
         with:
-          user: xxiamdsk
+          user: deepaksinghrx
           template: classic
           filename: secondary_extension.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -109,7 +109,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@master
         with:
-          user: xxiamdsk
+          user: deepaksinghrx
           template: classic
           filename: primary.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -174,13 +174,13 @@ jobs:
           plugin_leetcode_limit_recent: 2
           plugin_leetcode_limit_skills: 10
           plugin_leetcode_sections: solved,skills,recent
-          plugin_leetcode_user: xxiamdsk
+          plugin_leetcode_user: deepaksinghrx
 
       - name: primary_extension
         if: ${{ success() || failure() }}
         uses: stalomeow/metrics@projects-v2
         with:
-          user: xxiamdsk
+          user: deepaksinghrx
           template: classic
           filename: primary_extension.svg
           token: ${{ secrets.METRICS_TOKEN }}
